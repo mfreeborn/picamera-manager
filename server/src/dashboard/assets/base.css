@@ -1,0 +1,111 @@
+html, body {
+    background-color: #1b1b1b;
+    color: rgb(236, 236, 236);
+    height: 100%;
+}
+
+footer {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1030;
+}
+
+.output-nav-link {
+    color: white;
+    padding: 0px;
+}
+
+.output-nav-link:hover,
+.output-nav-link.active
+{
+    border-color: white;
+    /* matches the Bootstrap <input> border radius */
+    border-radius:0.25rem; 
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.thumbnail-container {
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  max-height: 850px;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-right: 80px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: flex;
+}
+
+/* Custom scrollbars */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+.thumbnail-container::-webkit-scrollbar {
+  width: 20px;
+  margin-right: 50px;
+  padding-right: 50px;
+}
+
+.thumbnail-container::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+.thumbnail-container::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa; 
+}
+
+.thumbnail-button:hover,
+.thumbnail-button:focus {
+  box-shadow: 0 0 0 0.2rem rgb(90 98 104);
+}
+
+.dropdown-item:focus {
+  outline: none;
+}
+
+video:focus {
+  outline: none;
+}
+
+.modal-content {
+  background-color: #525252;
+}

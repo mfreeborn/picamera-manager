@@ -1,0 +1,35 @@
+viewport_size = "1200x900"
+
+[server_address]
+ip = "192.168.1.21"
+port = 8001
+
+[camera]
+name = "ohhhhhhhhhhh"
+resolution = "1640x1232"
+framerate = 10
+bitrate = 3000000
+awb_mode = "auto"
+vflip = false
+hflip = false
+
+[outputs.network]
+enabled = true
+socket_port = 8000
+
+[outputs.timelapse]
+enabled = false
+capture_interval = 60
+
+[outputs.youtube]
+enabled = false
+
+[outputs.motion]
+enabled = false
+captured_before = 5
+captured_after = 5
+motion_interval = 20
+min_blocks = 6
+min_frames = 6
+sensitivity = 10
+notifications_enabled = false

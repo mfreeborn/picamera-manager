@@ -1,0 +1,4 @@
+data/
+timelapse_captures/
+timelapse_videos/
+*.pickle
